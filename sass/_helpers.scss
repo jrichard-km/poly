@@ -1,0 +1,48 @@
+// ==========================================================================
+// Helpers
+// ==========================================================================
+
+// Clearfix
+
+%clearfix {
+    &:after {
+        display: table;
+        clear: both;
+        content: '';
+    }
+}
+
+// Screen reader text
+
+.srt {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+}
+
+// Center alignment
+
+%center-align {
+    text-align: center;
+}
+
+// For pseudo-elements
+
+%pseudos {
+    position: absolute;
+    display: block;
+    content: '';
+}
+
+// Center elements
+
+.centered {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
