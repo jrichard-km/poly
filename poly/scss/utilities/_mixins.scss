@@ -19,19 +19,16 @@
 
 @mixin mq($break) {
   @if $break == "small" {
-    // @media (min-width: $brkpoint--sm) and (max-width: $brkpoint--md) {
     @include breakpoint($brkpoint--sm $brkpoint--md) {
       @content;
     }
   }
   @else if $break == "medium" {
-    // @media (min-width: $brkpoint--md + 1) {
     @include breakpoint($brkpoint--md + 1) {
       @content;
     }
   }
   @else if $break == "large" {
-    // @media (min-width: $brkpoint--lg) {
     @include breakpoint($brkpoint--lg) {
       @content;
     }
@@ -80,12 +77,22 @@
 // Image replacement
 
 @mixin img-replace($img, $w, $h, $disp: block) {
-	background-image: url('#{$path--rel}/#{$img}');
-	background-repeat: no-repeat;
-	width: $w;
-	height: $h;
-	display: $disp;
+    background-image: url('#{$path--rel}/#{$img}');
+    background-repeat: no-repeat;
+    width: $w;
+    height: $h;
+    display: $disp;
 }
+
+// Adjacent sibling margins
+
+@mixin doubly($margin: 1em) {
+  & + & {
+   margin-left: $margin;
+   @content;
+  }
+}
+
 
 // Grid columns
 
