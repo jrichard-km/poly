@@ -1,0 +1,16 @@
+// ==========================================================================
+// Grid Container
+// ==========================================================================
+
+.grid {
+    @include container(90%);
+
+    // Make nested grid container 100%
+    [class*="grid__col--"] > & {
+        width: 100%;
+    }
+
+    @include mq(large) {
+        max-width: $g-cont-max-w;
+    }
+}
