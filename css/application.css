@@ -414,6 +414,58 @@ footer p {
   font-size: 1em;
 }
 
+/* line 72, social/*.png */
+.social-sprite, .social-facebook, .social-google, .social-instagram, .social-twitter {
+  background-image: url('../img/social-s821fce54ec.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.social-facebook {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.social-google {
+  background-position: 0 -37px;
+}
+
+/* line 84, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.social-instagram {
+  background-position: 0 -63px;
+}
+
+/* line 84, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.social-twitter {
+  background-position: 0 -100px;
+}
+
+/* line 5, ../poly/scss/_sprites.scss */
+i {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 8, ../poly/scss/_sprites.scss */
+i.social-facebook {
+  width: 37px;
+  height: 37px;
+}
+/* line 12, ../poly/scss/_sprites.scss */
+i.social-google {
+  width: 40px;
+  height: 26px;
+}
+/* line 16, ../poly/scss/_sprites.scss */
+i.social-instagram {
+  width: 37px;
+  height: 37px;
+}
+/* line 20, ../poly/scss/_sprites.scss */
+i.social-twitter {
+  width: 37px;
+  height: 31px;
+}
+
 /* line 5, ../poly/scss/_extends.scss */
 .panel, .panel--centered {
   padding-top: 1.875em;
@@ -739,82 +791,82 @@ footer p {
   padding: 1.75%;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .grid__col--12 {
   background-color: #DEF4E5;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .grid__col--8 {
   background-color: #DCE0F2;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .grid__col--7 {
   background-color: #DCF0EF;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .grid__col--6 {
   background-color: #FFE3DB;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .grid__col--4 {
   background-color: #F8EDD0;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .grid__col--5 {
   background-color: #EAEBEC;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .grid__col--2 {
   background-color: #C5E2CE;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .grid__col--3 {
   background-color: #D6EEF5;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .susy-grid__col--12 {
   background-color: #DEF4E5;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .susy-grid__col--8 {
   background-color: #DCE0F2;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .susy-grid__col--7 {
   background-color: #DCF0EF;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .susy-grid__col--6 {
   background-color: #FFE3DB;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .susy-grid__col--4 {
   background-color: #F8EDD0;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .susy-grid__col--5 {
   background-color: #EAEBEC;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .susy-grid__col--2 {
   background-color: #C5E2CE;
 }
 
-/* line 82, ../poly/scss/application.scss */
+/* line 84, ../poly/scss/application.scss */
 .theme__poly .susy-grid__col--3 {
   background-color: #D6EEF5;
 }
